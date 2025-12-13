@@ -37,14 +37,14 @@ A complete coffeeshop automation system consisting of three integrated subsystem
     <td colspan="2"><b>Kiosk</b></td>
   </tr>
   <tr>
-    <td><img src="media/screenshots/pos/dashboard.png" width="200"/><br/><sub>Order Dashboard</sub></td>
-    <td><img src="media/screenshots/pos/create-order.png" width="200"/><br/><sub>Create Order</sub></td>
-    <td><img src="media/screenshots/kiosk/menu.png" width="200"/><br/><sub>Menu Browser</sub></td>
-    <td><img src="media/screenshots/kiosk/checkout.png" width="200"/><br/><sub>Checkout</sub></td>
+    <td><img src="media/screenshots/pos/dashboard.jpg" width="200"/><br/><sub>Order Dashboard</sub></td>
+    <td><img src="media/screenshots/pos/create-order.jpg" width="200"/><br/><sub>Create Order</sub></td>
+    <td><img src="media/screenshots/kiosk/menu.jpg" width="200"/><br/><sub>Menu Browser</sub></td>
+    <td><img src="media/screenshots/kiosk/checkout.jpg" width="200"/><br/><sub>Checkout</sub></td>
   </tr>
   <tr>
-    <td><img src="media/screenshots/pos/payment.png" width="200"/><br/><sub>Payment</sub></td>
-    <td><img src="media/screenshots/pos/analytics.png" width="200"/><br/><sub>Analytics View</sub></td>
+    <td><img src="media/screenshots/pos/payment.jpg" width="200"/><br/><sub>Payment</sub></td>
+    <td><img src="media/screenshots/pos/analytics.jpg" width="200"/><br/><sub>Analytics View</sub></td>
     <td colspan="2"><img src="media/screenshots/dispenser/hardware.jpg" width="420"/><br/><sub>Smart Dispenser with LCD</sub></td>
   </tr>
 </table>
