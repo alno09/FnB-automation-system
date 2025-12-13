@@ -40,7 +40,7 @@ await _eventBus.PublishAsync(new OrderCompletedEvent {
 ```
 
 ### 2. Payment Service (.NET 8)
-**Port**: 5085  
+**Port**: 5002  
 **Database**: PostgreSQL `payments_db`  
 
 **Responsibilities:**
@@ -72,7 +72,7 @@ public async Task<PaymentResult> ProcessPaymentAsync(Order order, PaymentInfo in
 ```
 
 ### 3. Product Service (.NET 8)
-**Port**: 5062  
+**Port**: 5003  
 **Database**: PostgreSQL `products_db`  
 
 **Responsibilities:**
@@ -99,7 +99,7 @@ public class Product {
 ```
 
 ### 4. Inventory Service (.NET 8)
-**Port**: 5001  
+**Port**: 5004  
 **Database**: PostgreSQL `inventories_db`  
 
 **Responsibilities:**
@@ -132,7 +132,7 @@ public async Task DecrementStockAsync(Guid productId, int qty) {
 ```
 
 ### 5. QR Service (.NET 8)
-**Port**: 5001  
+**Port**: 5005  
 **Database**: PostgreSQL `qr_db`  
 
 **Responsibilities:**

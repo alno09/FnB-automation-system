@@ -208,7 +208,7 @@ Power:            12V adapter + buck converter (5V)
 ## 🧩 Microservices Detail
 
 ### 1. Order Service (.NET)
-**Port**: 5059  
+**Port**: 5001  
 **Database**: PostgreSQL (`orders_db`)
 
 **Responsibilities:**
@@ -229,7 +229,7 @@ GET    /api/Order/{OrderId} - Get order by id
 ```
 
 ### 2. Payment Service (.NET)
-**Port**: 5085  
+**Port**: 5002  
 **Database**: PostgreSQL (`payments_db`)
 
 **Responsibilities:**
@@ -247,7 +247,7 @@ GET    /api/Payment/order/{OrderId}        - Get payment status by order id
 ```
 
 ### 3. Product Service (.NET)
-**Port**: 5062  
+**Port**: 5003  
 **Database**: PostgreSQL (`products_db`)
 
 **Responsibilities:**
@@ -266,7 +266,7 @@ PUT    /api/Product/{ProductId}/availability      - Update product availability
 ```
 
 ### 4. Inventory Service (.NET, currently under developing) 
-**Port**: 5001 
+**Port**: 5004 
 **Database**: PostgreSQL (`inventory_db`)
 
 **Responsibilities:**
@@ -284,7 +284,7 @@ GET    /api/StockMovement/{inventoryId}      - Get stock movement
 ```
 
 ### 5. QR Service (.NET)
-**Port**: 5010  
+**Port**: 5005  
 **Database**: PostgreSQL (`qr_db`)
 
 **Responsibilities:**
