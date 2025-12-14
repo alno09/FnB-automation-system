@@ -678,15 +678,15 @@ InventoryLow → Notification (future)
 - ✅ Built-in dependency injection
 - ✅ Good Docker support
 
-### Analytics: .NET 9
+### Analytics: FastAPI
 
-**Why .NET for Analytics Service?**
-- ✅ Consistency with other services (same stack)
-- ✅ High performance ETL processing
-- ✅ Strong typing for data transformations
-- ✅ Good ClickHouse .NET client (ClickHouse.Client)
-- ✅ Easy database access (Dapper, EF Core)
-- ✅ Background job scheduling (Hangfire, Quartz.NET)
+**Why FastAPI for Analytics Service?**
+- ✅ Built for data workloads
+- ✅ Native async support → fast ETL & API responses
+- ✅ Rich data libraries (Pandas, NumPy, PyArrow)
+- ✅ Strong ClickHouse support
+- ✅ Rapid development for analytics & experimentation
+- ✅ Lightweight REST APIs for dashboards
 
 **ETL Schedule:** Every 1 hour (configurable)
 
