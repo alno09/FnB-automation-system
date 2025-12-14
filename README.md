@@ -121,7 +121,7 @@ Running on Docker Compose (local dev)
 
 ### Backend Microservices (6 Services)
 ```yaml
-Framework:        .NET 8 (C#) - 5 services
+Framework:        .NET 9 (C#) - 5 services
                   FastAPI (Python) - Analytics
 API Pattern:      RESTful APIs (direct calls, no API Gateway yet)
 Messaging:        RabbitMQ (Event-driven for async operations)
@@ -430,11 +430,11 @@ services:
   - rabbitmq         (RabbitMQ 3.12 with Management UI)
   
   # Microservices
-  - order-service    (.NET 8, Port 5001)
-  - payment-service  (.NET 8, Port 5002)
-  - product-service  (.NET 8, Port 5003)
-  - inventory-service (.NET 8, Port 5004)
-  - qr-service       (.NET 8, Port 5005)
+  - order-service    (.NET 9, Port 5001)
+  - payment-service  (.NET 9, Port 5002)
+  - product-service  (.NET 9, Port 5003)
+  - inventory-service (.NET 9, Port 5004)
+  - qr-service       (.NET 9, Port 5005)
   - analytics-service (FastAPI, Port 8000)
 ```
 
@@ -785,5 +785,5 @@ This is a proprietary system built for portfolio demonstration. The architecture
 </p>
 
 <p align="center">
-  <strong>Tech Stack:</strong> .NET 8 • Kotlin • FastAPI • PostgreSQL • ClickHouse • Redis • RabbitMQ • Docker • ESP32
+  <strong>Tech Stack:</strong> .NET 9 • Kotlin • FastAPI • PostgreSQL • ClickHouse • Redis • RabbitMQ • Docker • ESP32
 </p>

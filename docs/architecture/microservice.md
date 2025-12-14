@@ -2,7 +2,7 @@
 
 ## Service Overview
 
-### 1. Order Service (.NET 8)
+### 1. Order Service (.NET 9)
 **Port**: 5001  
 **Database**: PostgreSQL `orders_db`  
 **Cache**: Redis (product prices, isDispensable flags)
@@ -39,7 +39,7 @@ await _eventBus.PublishAsync(new OrderCompletedEvent {
 });
 ```
 
-### 2. Payment Service (.NET 8)
+### 2. Payment Service (.NET 9)
 **Port**: 5002  
 **Database**: PostgreSQL `payments_db`  
 
@@ -71,7 +71,7 @@ public async Task<PaymentResult> ProcessPaymentAsync(Order order, PaymentInfo in
 }
 ```
 
-### 3. Product Service (.NET 8)
+### 3. Product Service (.NET 9)
 **Port**: 5003  
 **Database**: PostgreSQL `products_db`  
 
@@ -98,7 +98,7 @@ public class Product {
 }
 ```
 
-### 4. Inventory Service (.NET 8)
+### 4. Inventory Service (.NET 9)
 **Port**: 5004  
 **Database**: PostgreSQL `inventories_db`  
 
@@ -131,7 +131,7 @@ public async Task DecrementStockAsync(Guid productId, int qty) {
 }
 ```
 
-### 5. QR Service (.NET 8)
+### 5. QR Service (.NET 9)
 **Port**: 5005  
 **Database**: PostgreSQL `qr_db`  
 
@@ -165,7 +165,7 @@ public bool Validate(Guid qrId) {
 }
 ```
 
-### 6. Analytics Service (.NET 8)
+### 6. Analytics Service (.NET 9)
 **Port**: 8000  
 **Database**: PostgreSQL `analytic_db`  
 
