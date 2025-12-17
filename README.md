@@ -45,7 +45,7 @@ A complete coffeeshop automation system consisting of three integrated subsystem
   <tr>
     <td><img src="media/screenshots/pos/payment.jpg" width="200"/><br/><sub>Payment</sub></td>
     <td><img src="media/screenshots/pos/analytics.jpg" width="200"/><br/><sub>Analytics View</sub></td>
-    <td colspan="2"><img src="media/screenshots/dispenser/hardware.jpg" width="420"/><br/><sub>Smart Dispenser with LCD</sub></td>
+    <td colspan="2"><img src="media/screenshots/dispenser/full_hardware.jpg" width="420"/><br/><sub>Smart Dispenser with LCD</sub></td>
   </tr>
 </table>
 
