@@ -27,7 +27,7 @@ A complete coffeeshop automation system consisting of three integrated subsystem
 
 ## 🎬 Demo
 
-🎥 **[Watch Full System Demo on YouTube]TBA**
+🎥 **[▶️ Watch Full System Demo](https://youtube.com/shorts/wwlJBB-VW-U)**
 
 ### Screenshots
 
